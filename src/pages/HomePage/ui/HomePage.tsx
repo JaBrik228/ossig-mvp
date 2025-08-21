@@ -1,5 +1,7 @@
 import Link from "next/link"
 
+import Last from "@widgets/Last"
+
 import cls from "./HomePage.module.scss"
 
 const HomePage = () => {
@@ -15,6 +17,7 @@ const HomePage = () => {
 					yunglocokid
 				</Link>
 			</p>
+			<Last />
 			<pre className={cls.hint} data-testid="hint-code">
 				You can edit <span className={cls.path}>src/pages/HomePage</span> to
 				start {"<3"}!<br />
