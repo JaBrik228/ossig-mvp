@@ -1,7 +1,9 @@
+import "@app/styles/global.scss"
+
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
 
-import "@app/styles/global.scss"
+import App from "@app/App"
 
 export const metadata: Metadata = {
 	title: "Let's Develop!",
@@ -15,7 +17,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body>{children}</body>
+			<body>
+				<App>{children}</App>
+			</body>
 		</html>
 	)
 }

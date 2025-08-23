@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+}
+
+.variant-start {
+  justify-content: flex-start;
+}
+
+.variant-center {
+  justify-content: center;
+}
+
+.variant-end {
+  justify-content: flex-end;
+}
+
+
+.p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.light-color {
+  color: var(--light-color);
+}
+
+.error-color {
+  color: var(--error-color);
+}

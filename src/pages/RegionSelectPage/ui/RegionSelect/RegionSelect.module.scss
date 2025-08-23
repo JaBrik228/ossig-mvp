@@ -1,0 +1,11 @@
+.selectPopup {
+  :global(.ant-select-dropdown) {
+    border-radius: 12px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  :global(.rc-virtual-list-scrollbar-thumb) {
+    background: #2f9c95 !important;
+    border-radius: 4px !important;
+  }
+}

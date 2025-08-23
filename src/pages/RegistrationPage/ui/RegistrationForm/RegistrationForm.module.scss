@@ -1,0 +1,61 @@
+.headerWrapper {
+  display: flex;
+  margin-bottom: 47px;
+  gap: 42px;
+  align-items: center;
+  .headerText {
+    font-size: 48px;
+    font-weight: 700;
+    color: #154444;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.firstStep {
+  font-size: 24px;
+  color: #154444;
+  margin-left: 4px;
+  font-weight: 400;
+}
+
+.button {
+  box-shadow: none;
+  width: 216px !important;
+}
+
+.registrationForm {
+  :global(.ant-form-item-label > label) {
+    color: #7B7B7B !important;         /* цвет лейбла */
+  }
+
+  :global(.ant-form-item-row) {
+    position: relative;
+    align-items: center;
+    min-height: 71px;
+    @media (max-width: 760px) {
+      min-height: auto;
+    }
+  }
+
+  :global(.ant-form-item-additional) {
+    min-height: 14px;
+    position: absolute;
+    width: 100%;
+    bottom: -27px;
+    @media (max-width: 760px) {
+      position: relative;
+      width: auto;
+      min-height: auto;
+      bottom: 0;
+    }
+  }
+}
+
+
+.ant-form-item-row {
+  display: flex;
+  align-items: center; /* центр по вертикали */
+}
+

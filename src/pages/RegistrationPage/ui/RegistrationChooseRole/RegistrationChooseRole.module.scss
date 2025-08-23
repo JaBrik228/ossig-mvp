@@ -1,0 +1,14 @@
+.headerWrapper {
+	display: flex;
+	margin-bottom: 47px;
+	gap: 42px;
+	align-items: center;
+	.headerText {
+		font-size: 48px;
+		font-weight: 700;
+		color: #154444;
+		line-height: 1;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+}

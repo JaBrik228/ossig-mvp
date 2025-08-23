@@ -1,0 +1,61 @@
+.headerWrapper {
+  display: flex;
+  margin-bottom: 47px;
+  gap: 42px;
+  align-items: center;
+  .headerText {
+    font-size: 48px;
+    font-weight: 700;
+    color: #154444;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.firstStep {
+  font-size: 24px;
+  color: #154444;
+  margin-left: 4px;
+  font-weight: 400;
+}
+
+.button {
+  box-shadow: none !important;
+  width: 405px !important;
+}
+
+
+.myCheckbox {
+  /* меняем размер квадрата */
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  :global(.ant-checkbox-inner) {
+    width: 25px !important;   /* ширина чекбокса */
+    height: 25px !important;  /* высота чекбокса */
+  }
+  :global(.ant-checkbox-label) {
+    font-size: 18px !important;
+    color: #154444;
+    font-weight: 600;
+  }
+  // :global(.ant-radio-inner) {
+  //   border-radius: 4px !important;   /* вместо круглого */
+  //   width: 25px !important;
+  //   height: 25px !important;
+  // }
+  // :global(.ant-radio-inner::after) {
+  //   border-radius: 2px !important;   /* квадратная галочка */
+  //   background-color: #1a7f72 !important;
+  // }
+
+  /* подгоняем галочку под новый размер */
+}
+
+.myPopover {
+
+  /* при желании: фон или бордер */
+  color: #154444;      /* цвет текста */
+
+}

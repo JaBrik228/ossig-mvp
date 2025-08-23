@@ -1,3 +1,4 @@
+import { Card } from "antd"
 import Link from "next/link"
 
 import Last from "@widgets/Last"
@@ -18,6 +19,7 @@ const HomePage = () => {
 				</Link>
 			</p>
 			<Last />
+			<Card />
 			<pre className={cls.hint} data-testid="hint-code">
 				You can edit <span className={cls.path}>src/pages/HomePage</span> to
 				start {"<3"}!<br />
