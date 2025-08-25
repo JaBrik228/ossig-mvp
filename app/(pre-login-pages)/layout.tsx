@@ -3,7 +3,6 @@ import "@app/styles/global.scss"
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
 
-import { MainContainer } from "@app/MainContainer"
 import App from "@app/App"
 
 export const metadata: Metadata = {
