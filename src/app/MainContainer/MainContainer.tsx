@@ -23,7 +23,7 @@ export const MainContainer = ({ children, }: Props): JSX.Element => {
         <HeaderUserInfo />
       </Header>
 
-      <Layout hasSider>
+      <Layout>
         <SideMenu />
 
         <Layout className={ styles.contentLayout }>
