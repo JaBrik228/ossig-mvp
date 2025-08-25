@@ -1,4 +1,5 @@
 import StoreProvider from "./StoreProvider"
 import ThemeProvider from "./ThemeProvider"
 
-export { ThemeProvider, StoreProvider }
+export { ThemeProvider }
+export { StoreProvider as default }

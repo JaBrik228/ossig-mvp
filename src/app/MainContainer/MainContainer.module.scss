@@ -1,0 +1,25 @@
+.mainLayout {
+  height: 100vh;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contentLayout {
+  background-color: white;
+  padding: 1rem 2rem 0;
+}
+
+.content {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}

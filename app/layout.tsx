@@ -3,6 +3,7 @@ import "@app/styles/global.scss"
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
 
+import { MainContainer } from "@app/MainContainer"
 import App from "@app/App"
 
 export const metadata: Metadata = {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 	description: "FSD Template with Next.js by yunglocokid",
 }
 
-export default function RootLayout({
+export default function RootLayout ({
 	children,
 }: Readonly<{
 	children: ReactNode
@@ -18,7 +19,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<App>{children}</App>
+				<App>
+					<MainContainer>
+						{ children }
+					</MainContainer>
+				</App>
 			</body>
 		</html>
 	)
