@@ -1,0 +1,1 @@
+export { NewObjectPage } from './NewObjectPage'

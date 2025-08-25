@@ -7,19 +7,29 @@ interface IProps {
 	children?: ReactNode
 }
 
-export default function ThemeProvider({ children }: IProps) {
+export default function ThemeProvider ({ children }: IProps) {
 	return (
 		<AntdRegistry>
 			<ConfigProvider
-				theme={{
+				theme={ {
 					components: {
-						Card: {
-							borderRadiusLG: 56,
+						Layout: {
+							headerPadding: '1rem',
+							headerBg: '#fff',
+							colorBgBase: 'white',
+							colorBgContainer: 'white',
+							colorBgLayout: 'white',
+							siderBg: 'white',
 						},
+
+
+						// Card: {
+						// 	borderRadiusLG: 56,
+						// },
 					},
-				}}
+				} }
 			>
-				{children}
+				{ children }
 			</ConfigProvider>
 		</AntdRegistry>
 	)

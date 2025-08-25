@@ -4,3 +4,4 @@ import StyledText from "./StyledText/StyledText"
 import SuffixLoader from "./SuffixLoader/SuffixLoader"
 
 export { StyledInput, StyledButton, StyledText, SuffixLoader }
+export { BubleCard } from './BubleCard'
