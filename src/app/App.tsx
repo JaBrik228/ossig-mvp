@@ -11,7 +11,9 @@ interface IProps {
 export default function App ({ children }: IProps) {
 	return (
 		<StoreProvider>
-			<ThemeProvider>{ children }</ThemeProvider>
+			<ThemeProvider>
+				{ children }
+			</ThemeProvider>
 		</StoreProvider>
 	)
 }
