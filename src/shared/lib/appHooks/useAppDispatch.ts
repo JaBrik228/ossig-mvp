@@ -1,9 +1,7 @@
-"use client"
+import { useDispatch, } from 'react-redux'
 
-import { useDispatch } from "react-redux"
+// eslint-disable-next-line boundaries/element-types
+import { AppDispatch, } from '@app/index'
 
-function useAppDispatch() {
-	return useDispatch<AppDispatch>()
-}
 
-export default useAppDispatch
+export const useAppDispatch = useDispatch.withTypes<AppDispatch>()

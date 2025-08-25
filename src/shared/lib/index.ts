@@ -1,5 +1,5 @@
-import useAppDispatch from "./appHooks/useAppDispatch"
-import useAppSelector from "./appHooks/useAppSelector"
+import { useAppDispatch } from "./appHooks/useAppDispatch"
+import { useAppSelector } from "./appHooks/useAppSelector"
 import getToken from "./auth/getToken.server"
 import saveToken from "./auth/setToken.client"
 import setCookie from "./cookies/setCookie.client"
